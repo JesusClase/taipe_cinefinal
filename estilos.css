@@ -1,0 +1,239 @@
+body{
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#headerentero{
+    background-color: white;
+}
+
+.bloqueentero{
+    width: 1300px;
+    margin: auto;
+    padding: 20px 50px 0px 50px;
+}
+
+.fondoimagen {
+    background-image: url(https://i0.wp.com/moviemarker.co.uk/wp-content/uploads/sawx.png?fit=1078%2C618&ssl=1);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.separadorimagen{
+    height: 250px;
+}
+.contenido{
+    background-color: white;
+    padding: 10px;
+
+}
+.mpa{
+    margin-top: 5px;
+}
+
+.mpa ul{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    margin-right: 5px;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.mpa ul li{
+    list-style: none;
+    padding: 0 5px 0 5px;
+    font-size: 20px;
+    text-decoration: none;
+    border-width: 10px;
+}
+.mpa ul li a{
+    text-decoration: none;
+    color: blue;
+}
+.mpa ul li img{
+    width: 30px;
+}
+
+.mpm{
+
+}
+
+.mpm ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.mpm ul li{
+    list-style: none;
+    padding: 0 5px 0 5px;
+    font-size: 30px;
+    text-decoration: none;
+}
+.mpm ul li a{
+    text-decoration: none;
+    color: black;
+}
+.mpm img{
+    width: 200px;
+}
+
+.fila{
+    display: flex;
+}
+
+.pelis{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.peli{
+    width: 250px;
+    height: 500px;
+    border: 1px solid gray;
+    padding: 20px;
+    margin: 20px;
+    font-family: "Oswald" , sans-serif;
+}
+.valoracion{
+    margin-top: 10px;
+}
+.estrellas{
+    color: yellow;
+}
+.orden{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#listas{
+    margin: 15px;
+    
+}
+
+.botonazul{
+    color: blue;
+}
+
+.boton{
+    padding: 10px;
+    margin: 10px;
+}
+
+.elblanco{
+    background-color: white;
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+.elazul{
+    background-color: blue;
+    color: white;
+}
+.mpmm{
+
+}
+.mpmm ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+.mpmm ul li{
+    list-style: none;
+    padding: 5px 10px 5px 10px;
+    margin-left: 10px; 
+    margin-right: 10px;
+    text-decoration: none;
+}
+.mpmm ul li a{
+    text-decoration: none;
+}
+
+#mf{
+    width: 100%;
+}
+
+#mf ul li{
+    list-style: none;
+}
+
+#mf ul li a{
+    text-decoration: none;
+    color: gray;
+    font-family: "Oswald" , sans-serif;
+}
+
+#mf h2{
+    font-family: "Oswald" , sans-serif;
+}
+
+.MenuFA{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.MenuFA h2{
+    color: blue;
+    font-weight: bold;
+}
+
+.agrupadoiconos{
+    display: flex;
+    justify-content: center;
+    color: blue;
+}
+.menuiconos{
+    display: flex;
+    justify-content: center;
+    color: blue;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.menuiconos ul li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    padding: 50px;
+}
+
+.menuiconos ul li a{
+    text-decoration: none;
+    list-style: none;
+}
+.menuiconos ul li a i{
+    font-size: 50px;
+}
+.agrupadotodo{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.agrupadomenu{
+    width: 1300px;
+    margin: 0 auto 0 auto;
+    padding: 20px 50px 0 50px;
+}
+
+.orden li{
+    display: flex;
+    list-style: none;
+}
+.orden li a{
+    text-decoration: none;
+}
